@@ -1,5 +1,4 @@
 import { merge } from "theme-ui"
-import { tailwind } from "@theme-ui/presets"
 import originalTheme from "@lekoarts/gatsby-theme-jodie/src/gatsby-plugin-theme-ui/index"
 
 const theme = merge(originalTheme, {
@@ -9,7 +8,7 @@ const theme = merge(originalTheme, {
   colors: {
     primary: `#ffcb00`,
     primaryLight: `#fedf05`,
-    secondary: tailwind.colors.indigo[6],
+    secondary: `#ff0000`,
     heading: `#eeeeee`,
     background: `#202020`,
     text: `#dddddd`,
